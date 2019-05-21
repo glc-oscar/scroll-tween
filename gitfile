@@ -1,0 +1,20 @@
+[user]
+	name = Oscar Mata
+	email = omata@glcdelivers.com
+	username = glc-oscar
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+  sshCommand = ssh -i ~/.ssh/id_rsa_glc
+	editor=atom
+[remote "origin"]
+	#url = https://github.com/glc-oscar/healthtalkemails.git
+	url = git@github.com:glc-oscar/healthtalkemails.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[url "ssh://git@github.com/"]
+ insteadOf = https://github.com/
